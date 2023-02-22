@@ -5,7 +5,7 @@
 }
 
 .parallax-container {
-    height: 20%;
+    height: 30%;
 }
 
 .parallax img {
@@ -18,7 +18,11 @@
     filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
 }
 
-.event {
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.brand-logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.ul > li *{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
 }

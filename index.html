@@ -22,11 +22,12 @@
       <nav class="blue darken-2">
         <div class="container">
           <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">PJA X EMAKI 2.0 2023</a>
+            <a href="#" class="brand-logo">PJA X EMAKI 2.0 2023</a>
             <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="">EVENT</a></li>
-              <li><a href="">PESERTA</a></li>
+            <ul class="right hide-on-med-and-down" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+              <li><a href="">HOME</a></li>
+              <li><a href="#event">EVENT</a></li>
+              <li><a href="#sponsor">SPONSOR</a></li>
               <li><a href="">MAPS</a></li>
               <li><a href="">THB</a></li>
               <li><a href="">INFO</a></li>
@@ -37,9 +38,10 @@
     </div>
 
     <!-- sidenav -->
-    <ul class="sidenav" id="mobile-nav">
-      <li><a href="">EVENT</a></li>
-      <li><a href="">PESERTA</a></li>
+    <ul class="sidenav" id="mobile-nav" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+      <li><a href="">HOME</a></li>
+      <li><a href="#event">EVENT</a></li>
+      <li><a href="#sponsor">SPONSOR</a></li>
       <li><a href="">MAPS</a></li>
       <li><a href="">THB</a></li>
       <li><a href="">INFO</a></li>
@@ -73,11 +75,12 @@
     </div>
 
     <!-- About Us -->
-    <section id="about" class="about">
+    <section id="event" class="event">
       <div class="container">
         <div class="row">
-          <h3 class="event center light grey-text text-darken-3">EVENT PANAHAN TINGKAT NASIONAL <br>PJA X EMAKI 2.0</h3>
-          <div class="col m6 light">
+          <h3 class="event center light grey-text text-darken-3 mb-2" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">EVENT PANAHAN TINGKAT NASIONAL <br>PJA X EMAKI 2.0</h3>
+          <div class="col m6 light">    
+            <!-- 
             <h5>"PANAHAN HORSEBOW TINGKAT NASIONAL"</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quo accusantium repellat similique ipsa doloribus in aliquam earum eaque, possimus necessitatibus sunt repellendus ullam recusandae voluptas dolore debitis saepe facere.</p>
           </div>
@@ -94,18 +97,77 @@
             <div class="progress">
                 <div class="determinate blue" style="width: 90%"></div>
             </div>
+
+            -->
           </div>
         </div>
-      </div>
-    </section>
-    
 
+        <div class="cintainer">
+          <div class="row">
+            <div class="col">
+              
+            </div>
+          </div>
+        </div>
+        <style type="text/css">
+          table {
+          border-collapse: collapse;
+          width: 100%;
+          }
+       
+          th{
+              height: 50px;
+          }
+       
+          table, th, td {
+              border: 2px solid black;
+          }
+          table, th {
+            width: 25%px;
+            text-align: center;
+          }
+          table, td {
+            width: 75%px;
+            text-align: center;
+          }
+        </style>
+      </head>
+      <body>
+      <table class="table table-border table-success table-striped mb-4">
+        <tr>
+          <th>HARI/ TANGGAL</th>
+          <td>MINGGU, 19 FEBRUARI 2023</td>
+        </tr>
+        <tr>
+          <th>TEMPAT </th>
+          <td>PESANTREN EMAKI, JLN. SUKASENANG RAYA, KAYUAMBON, KEC. LEMBANG, KABUPATEN BANDUNG, <br> JAWA BARAT 40391</td>
+        </tr>
+        <tr>
+          <th> MAPS LOKASI </th>
+          <td><a href="https://bit.ly/Maps_Lokasi_PAC2" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">KLIK LOKASI -> PESANTREN EMAKI</a></td>
+        </tr>
+        <tr>
+          <th>KATEGORI </th>
+          <td>PANAHAN HORSEBOW TINGKAT NASIONAL, DEWASA UMUM (L)IKHWAN DAN (P)AKHWAT</td>
+        </tr>
+            </table>
+      </body>
+      </html>
+      </div>
+
+      <br><br><br>
+    
+      
+    </section>
+
+    
+<section id="sponsor" class="sponsor">
     <!-- Clients -->
     <div class="parallax-container">
       <div class="parallax"><img src="img/slider/4.png"></div>
 
       <div class="container clients">
-        <h3 class="center light white-text">Our Clients</h3>
+        <h3 class="center light dark-text">OUR SPONSOR AND PARTNER</h3>
         <div class="row">
           <div class="col m4 s12 center">
             <img src="img/clients/gojek.png">
@@ -139,6 +201,8 @@
       M.Parallax.init(parallax);
 
     </script>
+
+    </section>
   </body>
 </html>
 
